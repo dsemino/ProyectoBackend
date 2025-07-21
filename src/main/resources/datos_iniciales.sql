@@ -1,5 +1,5 @@
--- INSERT INTO `producto`(nombre, precio, `stock`, `description`) values ('celular', 2000, 20, 0, 'celular nuevo');
-INSERT INTO producto(nombre, precio, stock, description) VALUES 
+-- INSERT INTO `producto`(nombre, precio, `stock`, `descripcion`) values ('celular', 2000, 20, 0, 'celular nuevo');
+INSERT INTO producto(nombre, precio, stock, descripcion) VALUES 
 ('Resistencia 220Ω', 100.00, 500, 'Resistencia de 220 ohmios para proyectos electrónicos'),
 ('Condensador 10uF 16V', 250.00, 0, 'Condensador electrolítico de 10 microfaradios'),
 ('Transistor BC547', 150.00, 200, 'Transistor NPN general para baja potencia'),

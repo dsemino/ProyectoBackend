@@ -20,8 +20,7 @@ public class Producto {
     private String nombre;
     private double precio;
     private int stock;
-    //private int cantidadAComprar;
-    private String description;
+    private String descripcion;
 
     // El constructor vacio es necesario si usamos la clase para recibir datos con @RequestBody
     public Producto() {
@@ -32,7 +31,6 @@ public class Producto {
         this.nombre = nombre;
         this.precio = precio;
         this.stock = stock;
-        //this.cantidadAComprar = 0;
     }
 
     public boolean contieneNombre(String busqueda){

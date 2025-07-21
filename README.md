@@ -18,10 +18,12 @@ las rutas para los llamados a la API son:
 2) POST localhost:8080/productos/
    json
    {
-    "nombre": "transistor BD139",
-    "precio": 1.2,
-    "stock": 100,
-  }
+   "nombre": "transistor BD139",
+   "precio": 1250,
+   "stock": 100,
+   "descripcion": "transistor uso general"
+   }
+
 3) GET http://localhost:8080/productos/{id}
 4) GET http://localhost:8080/productos/buscar?nombreBusqueda='String'
 5) PUT http://localhost:8080/productos/{id}?nuevoPrecio=Valor
