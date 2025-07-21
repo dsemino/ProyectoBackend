@@ -22,10 +22,10 @@ las rutas para los llamados a la API son:
     "precio": 1.2,
     "stock": 100,
   }
-3) GET localhost:8080/productos/{id}
-4) GET localhost:8080/productos/buscar?nombreBusqueda='String'
-5) PUT localhost:8080/productos/{id}?nuevoPrecio=Valor
-6) DELETE localhost:8080/productos/{id}
+3) GET http://localhost:8080/productos/{id}
+4) GET http://localhost:8080/productos/buscar?nombreBusqueda='String'
+5) PUT http://localhost:8080/productos/{id}?nuevoPrecio=Valor
+6) DELETE http://localhost:8080/productos/{id}
 7) POST http://localhost:8080/pedidos
 8) POST http://localhost:8080/pedidos/{idPedido}/agregar?productoId=Id&cantidad=Cantidad
 9) DELETE http://localhost:8080/pedidos/{idPedido}/detalle/{Item}

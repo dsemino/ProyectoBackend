@@ -1,7 +1,11 @@
 package techlab.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+
+import java.math.BigDecimal;
+
 
 @Entity
 public class DetallePedido {
@@ -14,6 +18,7 @@ public class DetallePedido {
     private Producto producto;
 
     private int cantidad;
+
 
     private double subtotal;
 
@@ -65,7 +70,7 @@ public class DetallePedido {
     }
 
     public void setSubtotal(double subtotal) {
-        this.subtotal = subtotal;
+       this.subtotal = subtotal;
     }
 
     public Pedido getPedido() {
