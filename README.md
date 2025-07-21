@@ -23,7 +23,6 @@ las rutas para los llamados a la API son:
    "stock": 100,
    "descripcion": "transistor uso general"
    }
-
 3) GET http://localhost:8080/productos/{id}
 4) GET http://localhost:8080/productos/buscar?nombreBusqueda='String'
 5) PUT http://localhost:8080/productos/{id}?nuevoPrecio=Valor
